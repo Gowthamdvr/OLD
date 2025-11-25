@@ -1,0 +1,141 @@
+[
+  {
+    "name": "doctor",
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "description": "Doctor's full name",
+        "options": null
+      },
+      {
+        "name": "specialty",
+        "type": "text",
+        "description": "Medical specialty",
+        "options": null
+      },
+      {
+        "name": "experience",
+        "type": "text",
+        "description": "Years of experience",
+        "options": null
+      },
+      {
+        "name": "availability",
+        "type": "text",
+        "description": "Available days and hours",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "appointment",
+    "fields": [
+      {
+        "name": "patientName",
+        "type": "text",
+        "description": "Patient's full name",
+        "options": null
+      },
+      {
+        "name": "email",
+        "type": "text",
+        "description": "Patient's email address",
+        "options": null
+      },
+      {
+        "name": "phone",
+        "type": "text",
+        "description": "Patient's phone number",
+        "options": null
+      },
+      {
+        "name": "doctorName",
+        "type": "text",
+        "description": "Assigned doctor's name",
+        "options": null
+      },
+      {
+        "name": "specialty",
+        "type": "text",
+        "description": "Doctor's specialty",
+        "options": null
+      },
+      {
+        "name": "date",
+        "type": "text",
+        "description": "Appointment date",
+        "options": null
+      },
+      {
+        "name": "time",
+        "type": "text",
+        "description": "Appointment time",
+        "options": null
+      },
+      {
+        "name": "reason",
+        "type": "text",
+        "description": "Reason for visit",
+        "options": null
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "description": "Appointment status",
+        "options": [
+          "Scheduled",
+          "Cancelled",
+          "Approved",
+          "Rejected"
+        ]
+      },
+      {
+        "name": "prescription",
+        "type": "text",
+        "description": "Doctor's prescription",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "user",
+    "fields": [
+      {
+        "name": "username",
+        "type": "text",
+        "description": "User login username",
+        "options": null
+      },
+      {
+        "name": "password",
+        "type": "text",
+        "description": "User password",
+        "options": null
+      },
+      {
+        "name": "role",
+        "type": "text",
+        "description": "User role",
+        "options": [
+          "admin",
+          "doctor",
+          "receptionist",
+          "patient"
+        ]
+      },
+      {
+        "name": "fullName",
+        "type": "text",
+        "description": "User full name",
+        "options": null
+      },
+      {
+        "name": "email",
+        "type": "text",
+        "description": "User email address",
+        "options": null
+      }
+    ]
+  }
+]
